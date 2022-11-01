@@ -44,7 +44,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Install Scala
         run: |-
-          brew install scala
+          brew install scala@2.13
           git config --global user.email "workflow-bot@bigelectrons.com"
           git config --global user.name "workflow-bot"
           git checkout --orphan $TARGET_BRANCH

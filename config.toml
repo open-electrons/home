@@ -2,17 +2,20 @@
 baseURL = 'https://open-electrons.github.io/home'
 languageCode = 'en-us'
 title = 'open-electrons documentation'
+disablePathToLower = true
 
 # Change the default theme to be use when building the site with Hugo
 theme = "relearn"
 
 # For search functionality
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "PRINT", "JSON"]
+  section = ["HTML", "RSS", "PRINT"]
+  page = ["HTML", "RSS", "PRINT"]
 
 [params]
-# This controls whether submenus will be expanded (true), or collapsed (false) in the
-# menu; if no setting is given, the first menu level is set to false, all others to true;
+  # This controls whether submenus will be expanded (true), or collapsed (false) in the
+  # menu; if no setting is given, the first menu level is set to false, all others to true;
 # this can be overridden in the pages frontmatter
 alwaysopen = false
 # Prefix URL to edit current page. Will display an "Edit" button on top right hand corner of every page.
@@ -22,7 +25,7 @@ editURL = "https://github.com/open-electrons/home/edit/master/content"
 # Author of the site, will be used in meta information
 author = "joesan@open-electrons"
 # Description of the site, will be used in meta information
-description = ""
+description = "Documentation for open-electrons"
 # Shows a checkmark for visited pages on the menu
 showVisitedLinks = false
 # Disable search function. It will hide search bar
@@ -68,12 +71,12 @@ customSwaggerURL = "https://unpkg.com/rapidoc/dist/rapidoc-min.js"
 # Initialization parameter for Swagger, see RapiDoc documentation
 swaggerInitialize = "{ \"theme\": \"light\" }"
 # Hide Next and Previous page buttons normally displayed full height beside content
-disableNextPrev = true
+disableNextPrev = false
 # Order sections in menu by "weight" or "title". Default to "weight";
 # this can be overridden in the pages frontmatter
 ordersectionsby = "weight"
 # Change default color scheme with a variant one. Eg. can be "red", "blue", "green" or an array like [ "blue", "green" ].
-themeVariant = [ "relearn-light", "relearn-dark" ]
+themeVariant = [ "open-electrons" ]
 # Change the title separator. Default to "::".
 titleSeparator = "-"
 # If set to true, the menu in the sidebar will be displayed in a collapsible tree view. Although the functionality works with old browsers (IE11), the display of the expander icons is limited to modern browsers
