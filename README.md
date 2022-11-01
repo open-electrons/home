@@ -1,3 +1,3 @@
-## openelectrons
+## open-electrons
 
-Documenattion content for open-electrons
+Documentation content for open-electrons

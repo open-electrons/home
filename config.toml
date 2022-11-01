@@ -1,3 +1,4 @@
+# Should be without the www. otherwise issues with CORS might happen
 baseURL = 'https://open-electrons.github.io/home'
 languageCode = 'en-us'
 title = 'open-electrons documentation'
