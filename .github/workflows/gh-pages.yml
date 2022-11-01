@@ -1,25 +1,74 @@
-name: github pages
+name: Build and Deploy
 
 on:
   push:
+    paths-ignore:
+      - 'README.md'
+      - 'backup/**'
+      - '**/*.draft.md'
+      - 'util/**'
+      - 'help/**'
+      - '.gitignore'
+      - 'LICENSE'
     branches:
-      - master  # Set a branch to deploy
+      - master
   pull_request:
+    branches:
+      - master
 
 jobs:
-  deploy:
-    runs-on: ubuntu-22.04
+  linkChecker:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
+      - name: Check HTTP Links
+        uses: lycheeverse/lychee-action@v1.0.8
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
+          args: -v "content/**/*.md"
+          # This action below creates an issue automatically
+          #- name: Create Issue From File
+          # uses: peter-evans/create-issue-from-file@v2
+          #with:
+          # title: Link Checker Report
+          #content-filepath: ./lychee/out.md
+          #labels: report, automated issue
+
+  listDraftContent:
+    needs: linkChecker
+    runs-on: macos-11
+    if: github.ref == 'refs/heads/master'
+    env:
+      TARGET_BRANCH: draft-status
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Install Scala
+        run: |-
+          brew install scala
+          git config --global user.email "workflow-bot@bigelectrons.com"
+          git config --global user.name "workflow-bot"
+          git checkout --orphan $TARGET_BRANCH
+          bash ./.github/scripts/list_draft_content content draftStatus.txt
+          rm README.md
+          echo -e "TEMPORARY BRANCH, PLEASE NAVIGATE TO THE MASTER BRANCH" > README.md
+          git add .
+          git commit -m "generated draftStatus.txt"
+          git push --set-upstream origin $TARGET_BRANCH --force
+
+  deploy:
+    runs-on: ubuntu-20.04
+    needs: linkChecker
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive) tt + another test
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-          # extended: true
+          extended: true
 
       - name: Build
         run: hugo --minify
@@ -30,3 +79,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          keep_files: true
