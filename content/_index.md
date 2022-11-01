@@ -1,6 +1,7 @@
 +++
-archetype = "home"
-title = "open-electrons home"
+title = "home"
 +++
 
-Lorem Ipsum.
+# open-electrons home
+
+Under Construction
