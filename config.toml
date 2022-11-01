@@ -1,6 +1,6 @@
-baseURL = 'https://open-electrons.github.io/openelectrons.github.io'
+baseURL = 'https://open-electrons.github.io/home'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'open-electrons documentation'
 
 # Change the default theme to be use when building the site with Hugo
 theme = "relearn"
