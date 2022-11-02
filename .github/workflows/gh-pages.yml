@@ -45,7 +45,6 @@ jobs:
       - name: Install Scala
         run: |-
           brew install scala@2.13
-          echo 'export PATH="/usr/local/opt/scala@2.13/bin:$PATH"' >> /Users/runner/.bash_profile
           git config --global user.email "workflow-bot@bigelectrons.com"
           git config --global user.name "workflow-bot"
           git checkout --orphan $TARGET_BRANCH
