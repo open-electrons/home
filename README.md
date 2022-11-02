@@ -2,6 +2,8 @@
 
 Documentation content for open-electrons
 
+https://open-electrons.github.io/home/
+
 ## Run Locally
 
 1. Install Hugo
