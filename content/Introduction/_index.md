@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
-title = "Basics"
+title = "Introduction"
 chapter=true
 +++
 
-Lorem Ipsum.
+Under Construction
