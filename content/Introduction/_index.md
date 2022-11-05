@@ -1,7 +1,6 @@
 +++
 archetype = "chapter"
 title = "Introduction"
-chapter=true
 +++
 
-Under Construction
+This is just the beginning
