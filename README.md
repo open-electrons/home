@@ -1,6 +1,6 @@
 ## open-electrons
 
-[![Build and Deploy](https://github.com/open-electrons/home/actions/workflows/gh-pages.yaml/badge.svg)](https://github.com/open-electrons/home/actions/workflows/gh-pages.yaml)
+[![Build and Deploy](https://github.com/open-electrons/home/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/open-electrons/home/actions/workflows/gh-pages.yml)
 
 Documentation content for open-electrons
 
