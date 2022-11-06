@@ -19,3 +19,5 @@ git clone --recurse-submodules https://github.com/open-electrons/home.git
 4. Open http://localhost:1313/ (by default)
 
 That's it! Any project changes will be automatically reflected on your local server.
+
+[![HitCount](https://hits.dwyl.com/open-electrons/https://githubcom/open-electrons/home.svg?style=flat-square&show=unique)](http://hits.dwyl.com/open-electrons/https://githubcom/open-electrons/home)
