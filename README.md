@@ -20,4 +20,10 @@ git clone --recurse-submodules https://github.com/open-electrons/home.git
 
 That's it! Any project changes will be automatically reflected on your local server.
 
+To keep up-to-date with the changes on the submodules (relearn theme), use the following command:
+
+```
+git submodule update --recursive --remote
+```
+
 [![HitCount](https://hits.dwyl.com/open-electrons/home.svg?style=flat-square&show=unique)](http://hits.dwyl.com/open-electrons/home)
