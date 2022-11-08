@@ -42,6 +42,17 @@ theme = "relearn"
   url = "https://www.openchargealliance.org/"
   weight = 3
 
+[[menu.shortcuts]]
+  name = "<i class='fas fa-tags'></i> Tags"
+  url = "/tags"
+  weight = 4
+
+[[menu.shortcuts]]
+  name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+  url = "more/credits/"
+  weight = 5
+
+
 [params]
   # This controls whether submenus will be expanded (true), or collapsed (false) in the
   # menu; if no setting is given, the first menu level is set to false, all others to true;
@@ -56,13 +67,13 @@ theme = "relearn"
   # Description of the site, will be used in meta information
   description = "Documentation for open-electrons"
   # Shows a checkmark for visited pages on the menu
-  showVisitedLinks = false
+  showVisitedLinks = true
   # Disable search function. It will hide search bar
   disableSearch = false
   # Disable search in hidden pages, otherwise they will be shown in search box
   disableSearchHiddenPages = false
   # Disables hidden pages from showing up in the sitemap and on Google (et all), otherwise they may be indexed by search engines
-  disableSeoHiddenPages = false
+  disableSeoHiddenPages = true
   # Disables hidden pages from showing up on the tags page although the tag term will be displayed even if all pages are hidden
   disableTagHiddenPages = false
   # Javascript and CSS cache are automatically busted when new version of site is generated.

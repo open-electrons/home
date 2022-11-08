@@ -5,4 +5,6 @@ weight = 1
 menuPre = "1. "
 +++
 
-This is just the beginning
+Please have a look at the following chapters for more information!
+
+{{% children depth="2" %}}

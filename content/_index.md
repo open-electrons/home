@@ -1,6 +1,6 @@
----
-title: Wiki
----
++++
+title = "Wiki"
++++
 
 # open-electrons
 
@@ -11,7 +11,9 @@ Hello and welcome to the official documentation and wiki of open-electrons
 The open-electrons project is an attempt to implement the open standards related to EV charging. The OCA 
 alliance defines several protocols for participants in the EV space and, these participants require 
 an ecosystem to communicate with each other to offer the EV driver a seamless experience when 
-it comes to charging his EV car whether on road or when he is at home.
+it comes to charging his EV car whether on road or when he is at home. Given the new mix of participants
+consuming electricity on demand, we can build interesting use cases tailored around EV charging which is 
+the aim of open-electrons - To identify and build such use cases.
 
 ## How to find your way around
 
@@ -30,4 +32,5 @@ As always, contributions are very much welcomed.
 You will find the source code for this entire documentation along with its contents living in a
 [dedicated repository](https://github.com/open-electrons/home) on Github!
 
-Please refer the to README there to find yourself around, or file an issue! 😀
+Please refer the to README there to find yourself around, or file an issue, or maky any changes to this or any of the
+other pages by clicking the edit button (looks like a pencil) at the top right of this page.! 😀
