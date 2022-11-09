@@ -11,9 +11,12 @@ TODO: Under Construction
 
 **AC** - **A**lternating **C**urrent
 
-TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
-kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
-ksdzr sld whebgd sjuegdfös dfkwehgfd.
+Alternating Current (AC) refers to the flow of electrons which reverses direction constantly at periodic cycles. The flow
+of electrons in a copper wire is called current. In an AC current, the electrons flow in a certain direction until
+it reaches it's peak speed, then starts to slow down, reaches zero and starts to reverse direction until it reaches its
+peak again. This is called a cycle, i.e., going from zero to positive peak, getting back to zero, going to negative peak
+and then getting back to zero again. How many such cycles occur in a given second is called the frequency, often
+measured in Hertz or Hz for short. Here is Europe, we follow the 60 Hz system while in the US, there is a 60 Hz system.
 
 **CS** - **C**harging **S**tation
    
