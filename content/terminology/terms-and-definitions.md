@@ -11,8 +11,8 @@ TODO: Under Construction
 
 **AC** - **A**lternating **C**urrent
 
-Alternating Current (AC) refers to the flow of electrons which reverses direction constantly at periodic cycles. The flow
-of electrons in a copper wire is called current. In an AC current, the electrons flow in a certain direction until
+Alternating Current (AC) refers to the flow of electrons in a circuit which reverses direction constantly at periodic cycles. 
+The flow of electrons in a copper wire is called current. In an AC current, the electrons flow in a certain direction until
 it reaches it's peak speed, then starts to slow down, reaches zero and starts to reverse direction until it reaches its
 peak again. This is called a cycle, i.e., going from zero to positive peak, getting back to zero, going to negative peak
 and then getting back to zero again. How many such cycles occur in a given second is called the frequency, often
@@ -38,9 +38,8 @@ ksdzr sld whebgd sjuegdfös dfkwehgfd.
 
 **DC** - **D**irect **C**urrent
 
-TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
-kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
-ksdzr sld whebgd sjuegdfös dfkwehgfd.
+Direct Current (DC) refers to the flow of electrons in a circuit where the current flows only in one direction. 
+
 
 **eMSP** - **eM**obility **S**ervice **P**rovider
 
