@@ -38,7 +38,7 @@ ksdzr sld whebgd sjuegdfös dfkwehgfd.
 
 **DC** - **D**irect **C**urrent
 
-Direct Current (DC) refers to the flow of electrons in a circuit where the current flows only in one direction. 
+Direct Current (DC) refers to the flow of electrons in a circuit where the flow is only in one direction. 
 
 
 **eMSP** - **eM**obility **S**ervice **P**rovider
