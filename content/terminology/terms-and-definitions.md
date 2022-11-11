@@ -7,8 +7,6 @@ tags = ["basics"]
 
 This page contains the terms, definitions and some bit of background information on e-mobility!
 
-TODO: Under Construction
-
 **AC** - **A**lternating **C**urrent
 
 Alternating Current (AC) refers to the flow of electrons in a circuit which reverses direction constantly at periodic cycles. 
@@ -20,48 +18,45 @@ measured in Hertz or Hz for short. Here is Europe, we follow the 60 Hz system wh
 
 **CS** - **C**harging **S**tation
    
-TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
-kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc 
-ksdzr sld whebgd sjuegdfös dfkwehgfd.
+A Charging Station (CS) refers to a physical location that contains one or often times several EV charging units. In analogy
+this is similar to a fuel station where there are several fuel pumps. 
 
 **CSMS** - **C**harging **S**tation **M**anagement **S**ystem
 
-TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
-kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
-ksdzr sld whebgd sjuegdfös dfkwehgfd.
+A Charging Station Management System (CSMS), as the name implies is a piece of software that is used to manage the Charging
+Stations owned by a certain entity. For example., if an entity owns several Charging Stations across a certain geographic
+region, it can be easily managed through the deployment of a CSMS software. The OCPP and OCPI specifications make it easy
+for handling the standardised communication between a Charging Station and the CSMS software.
 
 **CSO** - **C**harging **S**tation **O**perator
 
-Charging Station Operator, or a Charging Point Operator is an entity that owns and operates one or more charging stations,
+Charging Station Operator (CSO), or a Charging Point Operator (CPO) is an entity that owns and operates one or more charging stations,
 and is responsible for technical maintenance, access, power supply and billing. CSO's also ensure that the Charging Stations
 installed comply with all the legal requirements in the country / region where the Charging Station is installed.
 
 **DC** - **D**irect **C**urrent
 
-Direct Current (DC) refers to the flow of electrons in a circuit where the flow is only in one direction. 
-
+Direct Current (DC) refers to the flow of electrons in a circuit where the flow is only in one direction.
 
 **eMSP** - **eM**obility **S**ervice **P**rovider
 
-TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
-kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
-ksdzr sld whebgd sjuegdfös dfkwehgfd.
+An eMobility Service Provider or eMSP or eMobility Provider (EMP) is an entity that offers their customers with access
+to multiple charging stations and networks. They are also responsible for the billing, and the settlement process. The eMSP's
+pay the CSO / CPO for the charging sessions and later on transact and settle the corresponding invoices with the end
+customers.
 
 **EMU** - **E** **M**obility **U**ser
 
-TODO:
+It refers to the end user who typically has an EV car, or an EV truck and would then use the Charging Station to charge 
+his car or truck.
 
 **EV** - **E**lectric **V**ehicle
 
-TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
-kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
-ksdzr sld whebgd sjuegdfös dfkwehgfd.
+This is the most obvious one as it simply refers to any vehicle that is battery operated.
 
 **EVSE** - **E**lectric **V**ehicle **S**upply **E**quipment
 
-TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
-kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
-ksdzr sld whebgd sjuegdfös dfkwehgfd.
+The Electic Vehicle Supply Equipment (EVSE)...... TODO
 
 **kW** - **K**ilo **W**att
 
