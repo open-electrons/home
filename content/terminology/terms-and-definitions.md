@@ -32,9 +32,9 @@ ksdzr sld whebgd sjuegdfös dfkwehgfd.
 
 **CSO** - **C**harging **S**tation **O**perator
 
-TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
-kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
-ksdzr sld whebgd sjuegdfös dfkwehgfd.
+Charging Station Operator, or a Charging Point Operator is an entity that owns and operates one or more charging stations,
+and is responsible for technical maintenance, access, power supply and billing. CSO's also ensure that the Charging Stations
+installed comply with all the legal requirements in the country / region where the Charging Station is installed.
 
 **DC** - **D**irect **C**urrent
 
@@ -46,6 +46,10 @@ Direct Current (DC) refers to the flow of electrons in a circuit where the flow 
 TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
 kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
 ksdzr sld whebgd sjuegdfös dfkwehgfd.
+
+**EMU** - **E** **M**obility **U**ser
+
+TODO:
 
 **EV** - **E**lectric **V**ehicle
 
