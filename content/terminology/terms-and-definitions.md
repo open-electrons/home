@@ -52,7 +52,8 @@ his car or truck.
 
 **EV** - **E**lectric **V**ehicle
 
-This is the most obvious one as it simply refers to any vehicle that is battery operated.
+This is the most obvious one as it simply refers to any vehicle that is battery operated and can be charged at a 
+Charging Station.
 
 **EVSE** - **E**lectric **V**ehicle **S**upply **E**quipment
 
