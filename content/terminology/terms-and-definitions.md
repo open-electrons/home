@@ -57,7 +57,7 @@ Charging Station.
 
 **EVSE** - **E**lectric **V**ehicle **S**upply **E**quipment
 
-The Electic Vehicle Supply Equipment (EVSE)...... TODO
+The Electric Vehicle Supply Equipment (EVSE) refers to the charging equipment...... TODO
 
 **kW** - **K**ilo **W**att
 
