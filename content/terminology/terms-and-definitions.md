@@ -61,9 +61,10 @@ The Electric Vehicle Supply Equipment (EVSE) refers to the charging equipment...
 
 **kW** - **K**ilo **W**att
 
-TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
-kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
-ksdzr sld whebgd sjuegdfös dfkwehgfd.
+A kilowatt is simply a measure of how much power an electric appliance consumes. 1 kW is the energy consumption 
+of 1000 joules for 1 second. 1 joule is equal to the amount of work done when a force of 1 newton displaces a mass through 
+a distance of 1 metre in the direction of the force applied. So here the force is the voltage, and the displaced mass
+is the movement of electrons.
 
 **kWh** - **K**ilo **W**att **H**our
 
