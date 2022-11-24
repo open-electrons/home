@@ -64,19 +64,17 @@ The Electric Vehicle Supply Equipment (EVSE) refers to the charging equipment...
 A kilowatt is simply a measure of how much power an electric appliance consumes. 1 kW is the energy consumption 
 of 1000 joules for 1 second. 1 joule is equal to the amount of work done when a force of 1 newton displaces a mass through 
 a distance of 1 metre in the direction of the force applied. So here the force is the voltage, and the displaced mass
-is the movement of electrons.
+is the movement of electrons, and 1 newton is the force required to cause a mass of one kilogram to accelerate at 
+a rate of one meter per second squared in the absence of other force-producing effects.
 
 **kWh** - **K**ilo **W**att **H**our
 
-TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
-kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
-ksdzr sld whebgd sjuegdfös dfkwehgfd.
+It is simply 1 kilo Watt of power for 1 hour.
 
 **OCA** - **O**pen **C**harge **A**lliance
 
-TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
-kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
-ksdzr sld whebgd sjuegdfös dfkwehgfd.
+[Open Charge Alliance (OCA)](https://www.openchargealliance.org/) is a global consortium that aims at defining open 
+standards that enables easy interoperability for the different players in the eMobility space.
 
 **OCPI** - **O**pen **C**harge **P**oint **I**nterface
 
