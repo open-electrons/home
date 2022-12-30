@@ -59,6 +59,14 @@ Charging Station.
 
 The Electric Vehicle Supply Equipment (EVSE) refers to the charging equipment...... TODO
 
+**ISO 15118**
+
+ISO 15118 is an international standard that specifies a communication protocol between electric vehicles and charging stations. 
+The protocol has plug-and-charge capabilities, which allows for charging authorization to be activated merely by 
+connecting a car to a charger. ISO 15118 also allows for bi-directional EV charging, commonly known as vehicle-to-grid 
+charging (V2G). With V2G, EV cars will be able to send energy back into the grid as needed, reducing expensive system 
+peaks and providing a more intelligent, dependable grid.
+
 **kW** - **K**ilo **W**att
 
 A kilowatt is simply a measure of how much power an electric appliance consumes. 1 kW is the energy consumption 
@@ -76,6 +84,12 @@ It is simply 1 kilo Watt of power for 1 hour.
 [Open Charge Alliance (OCA)](https://www.openchargealliance.org/) is a global consortium that aims at defining open 
 standards that enables easy interoperability for the different players in the eMobility space.
 
+**OCHP** - **O**pen **C**learing **H**ouse **P**rotocol
+
+TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
+kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
+ksdzr sld whebgd sjuegdfös dfkwehgfd.
+
 **OCPI** - **O**pen **C**harge **P**oint **I**nterface
 
 TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
@@ -83,6 +97,21 @@ kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf 
 ksdzr sld whebgd sjuegdfös dfkwehgfd.
 
 **OCPP** - **O**pen **C**harge **P**oint **P**rotocol
+
+TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
+kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
+ksdzr sld whebgd sjuegdfös dfkwehgfd.
+
+**Open-ADR**
+Open-ADR (Open Automated Demand Response) is a two-way, open, and secure information sharing mechanism that enables 
+automatic demand response (DR) operations that assist balance grid supply and demand or reducing excessive power 
+bills. During DR events, this protocol guarantees that dynamic pricing and reliability signals are sent equally between 
+utility companies, system operators, and energy management and control systems. Aggregated EV charging loads have a 
+high potential for DR value and will most likely be well-integrated into contemporary smart grids.
+
+The Open-ADR Alliance promotes the development and implementation of Open-ADR standards.
+
+**OSCP** - **O**pen **S**mart **C**harging **P**rotocol
 
 TODO, This is a test to be documented some content and to verify some fknajkgh jhzgsjgdfdjh jhgjd khgse k
 kjhds kjhku skjehku chkhsd foklhjslksd cjlihjsd dcfkuhskdfh lkihkhkjhs khskjdgf lwiezrg chkwkefbc aldgfbsdc
