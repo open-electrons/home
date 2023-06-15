@@ -14,9 +14,13 @@ Documentation content for open-electrons is available @ https://open-electrons.g
 git clone --recurse-submodules https://github.com/open-electrons/home.git
 ```
 
-3. Navigate to the project directory and type hugo serve
+3. Navigate to the project directory and to run, type the following command from the project root folder
 
-4. Open http://localhost:1313/ (by default)
+```
+hugo serve
+```
+
+5. Open http://localhost:1313/ (by default)
 
 That's it! Any project changes will be automatically reflected on your local server.
 
