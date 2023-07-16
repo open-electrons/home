@@ -2,7 +2,7 @@
 
 [![Build and Deploy](https://github.com/open-electrons/home/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/open-electrons/home/actions/workflows/gh-pages.yml)
 
-Documentation content for open-electrons is available @ https://open-electrons.github.io/home/
+This project encompasses the documentation and informational content for all [open-electrons projects](https://github.com/open-electrons)
 
 ## Run Locally
 
