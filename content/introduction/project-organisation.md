@@ -24,15 +24,14 @@ source code repository. Have a look here for the latest [releases](https://githu
 and [packages](https://github.com/orgs/open-electrons/packages?repo_name=ocpi-scala). Please note that only the OCPP
 protocol version 2.2 is supported.
 
-**ocpp-example-server**
+**ocpp-gateway-server**
 
 This project serves as a reference implementation by using the ocpp-scala project as a library. It defines and abstracts
 the Websocket implementation as laid out by the OCPP specification. This should represent the behavior of a CSMS to which
-several CS might connect. Have a [look here](https://github.com/open-electrons/ocpp-example-server) 
+several CS might connect. Have a [look here](https://github.com/open-electrons/ocpp-gateway-server) 
 for the project's source code repository.
 
-**emsp-platform-server**
+**cpo-platform**
 
-This project serves as a reference implementation by using the ocpp-scala and ocpi-scala projects as a library. It defines 
-the use cases needed for the operation of an eMobility Service Provider (eMSP). Have a 
-[look here](https://github.com/open-electrons/emsp-platform) for the project's source code repository.
+This project defines the use cases needed for the operation of a Charge Point Operator (CPO). Have a 
+[look here](https://github.com/open-electrons/cpo-platform) for the project's source code repository.
