@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Open-Electrons Projects"
-weight = 2
+weight = 3
 menuPre = "3. "
 +++
 
